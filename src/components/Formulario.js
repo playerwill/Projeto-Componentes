@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {toast} from 'react-toastify' 
 
-export function Formulario(){
+export function Formulario(props){
     
     const[nome, setNome] = useState();
     const[endereco, setEndereco] = useState();
